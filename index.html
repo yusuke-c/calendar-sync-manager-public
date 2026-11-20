@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="calendar-sync-managerは、Google Calendarの予定を確認・承認し、個人のカレンダーへ同期する本人専用ツールです。">
+  <meta name="referrer" content="no-referrer">
+  <title>calendar-sync-manager | 個人用予定同期ツール</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html">calendar-sync-manager</a>
+    <nav aria-label="メイン"><a href="privacy.html">プライバシーポリシー</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <p class="eyebrow">PERSONAL CALENDAR TOOL</p>
+      <h1>必要な予定を、<br>自分のカレンダーへ。</h1>
+      <p class="lead">Google Calendarの予定を確認し、承認した予定だけを個人のカレンダーへ同期する、運営者本人専用のツールです。</p>
+      <p class="caption">一般利用者向けの登録・配布は行っていません。</p>
+    </section>
+    <section class="section" aria-labelledby="how">
+      <h2 id="how">予定の確認から反映まで</h2>
+      <div class="steps">
+        <article><span class="tag">Google Calendar</span><h3>予定を取得</h3><p>運営者がアクセスを許可した原本カレンダーから、予定とその変更を取得します。</p></article>
+        <article><span class="tag">Google Chat</span><h3>同期する予定を選ぶ</h3><p>本人用のダイレクトメッセージで新しい予定を確認し、「承認」または「対象外」を選びます。</p></article>
+        <article><span class="tag">Google Calendar</span><h3>個人カレンダーへ同期</h3><p>定期処理が承認済み予定のコピーを作成します。対象となる予定の変更・取消も反映し、結果を通知します。</p></article>
+      </div>
+    </section>
+    <section class="section details" aria-labelledby="data">
+      <div><h2 id="data">データの使い方</h2><p>Google Sheetsに予定の管理情報、判定、同期結果を保存し、Google Chatを確認と通知に使います。原本の予定をコピー先から書き換える双方向同期は行いません。</p></div>
+      <div class="panel"><h3>取得・保存・共有について</h3><p>予定情報とGoogleアカウントの識別情報は、同期、本人確認、障害対応のために扱います。詳細はポリシーで説明しています。</p><a class="button" href="privacy.html">プライバシーポリシーを読む</a></div>
+    </section>
+    <section class="section" aria-labelledby="contact"><h2 id="contact">運営・お問い合わせ</h2><p>運営者：yusuke-c</p><p>連絡先：<a href="mailto:team.uma.west.yusuke@gmail.com">team.uma.west.yusuke@gmail.com</a></p></section>
+  </main>
+  <footer class="wrap site-footer"><span>calendar-sync-manager</span><a href="privacy.html">プライバシーポリシー</a></footer>
+</body>
+</html>
